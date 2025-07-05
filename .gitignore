@@ -205,3 +205,19 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+
+Task One/temp.aux
+Task One/temp.log
+Task One/temp.pdf
+Task One/temp.tex
+Task One/temp.synctex.gz
+Task One/24AI06014.zip
+Task One/Inter IIT tech meet preparation.pdf
+
+Task Two/report
+Task Two/__pycache__
+Task Two/data
+Task Two/Computer vision task 2.pdf
+Task Two/seresnet_model.pth
+Task Two/24AI06014_Task_2.zip
