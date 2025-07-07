@@ -25,7 +25,7 @@ MLP_DIM = 512
 DROP_RATE = 0.1
 ```
 Accuracy Plot
-![Accuracy Plot](./assets/output_1.png)
+![Accuracy Plot](./assets/output_1.png)<br>
 Prediction Plot
 ![Prediction Plot](./assets//output_2.png)
 ---
@@ -46,6 +46,6 @@ MLP_DIM = 512
 DROP_RATE = 0.1
 ```
 Accuracy Plot
-![Accuracy Plot](./assets/output_3.png)
+![Accuracy Plot](./assets/output_3.png)<br>
 Prediction Plot
 ![Prediction Plot](./assets/output_4.png)
