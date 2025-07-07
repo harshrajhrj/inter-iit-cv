@@ -96,7 +96,7 @@ class HyperParameters():
         self.IMAGE_SIZE = 32 # transform the image and make the size go to 224
         self.CHANNELS = 3
         self.EMBED_DIM = 256
-        self.NUM_HEADS = 8 # increase the number of heds
+        self.NUM_HEADS = 8 # increase the number of heads
         self.DEPTH = 6
         self.MLP_DIM = 512
         self.DROP_RATE = 0.1
