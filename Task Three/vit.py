@@ -19,6 +19,8 @@ class PatchEmbedding(nn.Module): # we need to split our images into patches
     def __init__(self, imageSize, patchSize, inChannels, embedDim):
         super().__init__()
         self.patchSize = patchSize
+        # each patch is flattened into a vector and passed through a **linear projection layer** to embed it into a 
+        # fixed-length vector (like word embeddings in NLP)
         self.projection = nn.Conv2d(in_channels=inChannels, out_channels=embedDim, kernel_size=patchSize, stride=patchSize)
         numPatches = (imageSize // patchSize) ** 2 # integer division
         self.clsToken = nn.Parameter(torch.randn(1, 1, embedDim)) # initialize weights randomly
