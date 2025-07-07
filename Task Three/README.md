@@ -24,8 +24,10 @@ DEPTH = 6
 MLP_DIM = 512
 DROP_RATE = 0.1
 ```
-* Training Accuracy: $76.212%$
-* Test Accuracy: $63.19%$
+* Training Accuracy: $76.212$%
+* Test Accuracy: $63.19$%
+
+
 ![Accuracy Plot](./assets/output_1.png)
 ![Prediction Plot](./assets//output_2.png)
 ---
@@ -45,7 +47,9 @@ DEPTH = 6
 MLP_DIM = 512
 DROP_RATE = 0.1
 ```
-* Training Accuracy: $93.888%$
-* Test Accuracy: $63.29%$
+* Training Accuracy: $93.888$%
+* Test Accuracy: $63.29$%
+
+
 ![Accuracy Plot](./assets/output_3.png)
 ![Prediction Plot](./assets/output_4.png)
