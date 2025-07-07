@@ -1,5 +1,7 @@
 # Task Three
 * Reference [Vision Transformer](https://github.com/kentaroy47/vision-transformers-cifar10)
+* [Attention is All You Need](https://arxiv.org/pdf/1706.03762)
+* [A Deep Dive into the Self-Attention Mechanism of Transformers](https://medium.com/analytics-vidhya/a-deep-dive-into-the-self-attention-mechanism-of-transformers-fe943c77e654)
 * **torch.manual_seed(42)**: 
     When `torch.manual_seed(42)` is called, it initializes PyTorch's internal random number generator with the value 42. Subsequent calls to functions that rely on PyTorch's random number generation (e.g., `torch.randn`, `torch.rand`, weight initialization in neural networks) will produce the same sequence of "random" numbers each time the code is executed with that specific seed.
 * While `torch.manual_seed()` is crucial for PyTorch-specific randomness, achieving full reproducibility in deep learning experiments often requires setting seeds for other libraries and functionalities as well:
