@@ -224,5 +224,6 @@ Task Two/24AI06014_Task_2.zip
 
 Task Three/data
 Task Three/24AI06014.zip
-Task Three/report
+Task Three/report/*
+!Task Three/report/report.pdf
 Task Three/CV TASK 3.pdf
