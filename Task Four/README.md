@@ -12,3 +12,7 @@ The task is divided into two phases:
 ### Object tracking
 ### Masking techniques
 ## Smart Attendance System (Task)
+Key steps
+- Image classification
+- Object detection
+- Image segmentation
