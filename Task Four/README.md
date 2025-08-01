@@ -3,21 +3,16 @@ The task is divided into two phases:
 1. Learning Goals
 2. Project
 ## Learning Goals
-### Color Space Conversion
-### Blurring and smoothing
-### Edge Detection
-### Thresholding and contour detection
-### Drawing saped and text on image
-### Face detection
-### Object tracking
-### Masking techniques
-## Smart Attendance System (Task)
-Key steps
-- Image classification
-- Object detection
-- Image segmentation
+#### Color Space Conversion
+#### Blurring and smoothing
+#### Edge Detection
+#### Thresholding and contour detection
+#### Drawing saped and text on image
+#### Face detection
+#### Object tracking
+#### Masking techniques
 
-### Data Preprocessing steps
+#### Data Preprocessing steps
 Data preprocessing in computer vision tasks involves preparing raw image data for effective use by machine learning models. The key steps include: 
  - Data Cleaning: 
     - Handling Missing Data: Addressing incomplete image data or metadata. 
@@ -40,3 +35,35 @@ Data preprocessing in computer vision tasks involves preparing raw image data fo
  - Data Splitting: 
 	- Training, Validation, and Test Sets: Dividing the preprocessed dataset into distinct sets for model training, hyperparameter tuning and early stopping, and final performance evaluation, respectively. This ensures an unbiased assessment of the model's generalization capabilities.
 
+## Smart Attendance System (Task)
+Download haarcascade face detection model from [opencv](https://github.com/opencv/opencv/tree/master/data/haarcascades)
+1. haarcascade_frontalface_default.xml
+2. haarcascade_profileface.xml
+
+Install the following package to import the face recognition model:<br>
+```pip install opencv-contrib-python```
+
+-----------
+To train the model, follow the steps:
+1. We can provide your own dataset in this hierarchy <br>
+```
+Faces |
+	  |train |
+	  |______|_name_1 |
+	  |______|________|_img_1
+	  |______|________|_img_2
+	  |
+	  |val___|
+	  |______|_name_1 |
+	  |______|________|_img_1
+	  |______|________|_img_2
+```
+2. Run `preprocess.py`
+3. Run `face_Train.py`
+
+-----------
+To test the trained model, follow the steps:
+1. Open **face_recognition.py** and give an image path as <br>
+	`img_name = <img_path>`
+2. Run **face_recognition.py**.
+	The result will be the face recognized image with face label predicted by the model. The confidence level of recognized is also printed on the console.
