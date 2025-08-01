@@ -213,21 +213,21 @@ Task One/temp.pdf
 Task One/temp.tex
 Task One/temp.synctex.gz
 Task One/24AI06014.zip
-Task One/Inter IIT tech meet preparation.pdf
+#Task One/Inter IIT tech meet preparation.pdf
 
 Task Two/report
 Task Two/__pycache__
 Task Two/data
 Task Two/Computer vision task 2.pdf
-Task Two/seresnet_model.pth
+#Task Two/seresnet_model.pth
 Task Two/24AI06014_Task_2.zip
 
 Task Three/data
 Task Three/24AI06014.zip
 Task Three/report/*
 !Task Three/report/report.pdf
-Task Three/CV TASK 3.pdf
+#Task Three/CV TASK 3.pdf
 
 Task Four/24AI06014_Task_4.zip
-Task Four/Computer Vision.pdf
+#Task Four/Computer Vision.pdf
 Task Four/*.npy
